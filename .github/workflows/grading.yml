@@ -5,7 +5,7 @@ on:
       - ".github/secret_scanning.yml"
   workflow_dispatch:
 
-jobs:
+jobs: 
   grade-learner:
     if: github.event_name == 'push' # Apply additional filters as needed
     runs-on: ubuntu-latest
